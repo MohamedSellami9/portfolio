@@ -79,7 +79,7 @@ export const projectsData = [
     title: "Find The Way",
     description:
       "I collaborated on the development of this educational game within an academic project team, designed to familiarize beginners with algorithms and coding basics.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    tags: ["C#", "Unity"],
     imageUrl: Findtheway,
   },
 ] as const;
