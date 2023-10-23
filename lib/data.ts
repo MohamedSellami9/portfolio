@@ -66,11 +66,11 @@ export const projectsData = [
     title: "PharmaChain",
     description:
       "I worked on this academic project for 6 months. I utilized blockchain technology to facilitate user management and tracking of the drug supply chain.",
-    tags: ["React", "Block Chain", "Truffle", "Bootstrap"],
+    tags: ["React", "Block Chain", "Truffle","Solidity", "Bootstrap"],
     imageUrl: pharmachain,
   },
   {
-    title: "Mohamed Sellami",
+    title: "Personal Profile",
     description:
       "I created a portfolio website to display my work and professional experience.",
     tags: ["React", "Next.js", "Typescript", "Tailwind CSS","Framer Motion","React Email & Resend","Vercel hosting"],

@@ -21,10 +21,8 @@ export default function About() {
       <p className="mb-3">
       Currently a <span className="font-medium"> software engineering student </span>  at <span className="font-medium">the National School of Computer Sciences </span>(ENSI) in Tunisia,
       actively searching for a 4-to-6-month <span className="font-medium"> end-of-study internship </span>opportunity starting in <span className="font-medium">February 2024</span>. <br/>
-      I'm passionate about <span className="font-medium"> cutting-edge</span>, <span className="font-medium"> pixel-perfect</span>, <span className="font-medium"> beautiful</span> interfaces and <span className="font-medium"> intuitively implemented</span> UX. 
-        <span className="italic"> My favorite part of programming</span> is the
-        problem-solving aspect.<br/> I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My main focus is {" "}
+      <span className="italic"> I'm passionate </span>about <span className="font-medium"> cutting-edge</span>, <span className="font-medium"> pixel-perfect</span>, <span className="font-medium"> beautiful</span> interfaces and <span className="font-medium"> intuitively implemented</span> UX. 
+         My main focus is {" "}
         <span className="font-medium">
           React, Next.js, Node.js, and Nest.js
         </span>
