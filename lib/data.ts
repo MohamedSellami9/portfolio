@@ -3,7 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import pharmachain from "@/public/pharmachain.png";
-import Agristats from "@/public/rmtdev.png";
+import Agristats from "@/public/agristats.png";
+import portfolio from "@/public/portfolio.png";
 import Findtheway from "@/public/findtheway.png";
 
 export const links = [
@@ -35,28 +36,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Preparatory Engineering Institute",
+    location: "Sfax, tunisia",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "PREPARATORY CYCLE (MP) Grade 221 out of 1700 admitted candidates.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "National School of Computer Science",
+    location: "Mnouba, Tunisia",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I am currently pursuing a Computer Science Engineering degree with a specialization in Software Engineering, and I'm expected to graduate in 2024.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021 - Present",
+  },
+  {
+    title: "Full-Stack Developer internship",
+    location: "CODECOOPERATION GMBH, Tunisia",
+    description:
+      "I was part of a team that developed a web application for cyber maturity assessment tool, we used Next.js, Nest.js and mySQL. We followed the Scrum methodology for project development and utilized Jira for effective project management.",
+    icon: React.createElement(CgWorkAlt),
+    date: "july - Sept 2023",
   },
 ] as const;
 
@@ -67,6 +68,13 @@ export const projectsData = [
       "I worked on this academic project for 6 months. I utilized blockchain technology to facilitate user management and tracking of the drug supply chain.",
     tags: ["React", "Block Chain", "Truffle", "Bootstrap"],
     imageUrl: pharmachain,
+  },
+  {
+    title: "Mohamed Sellami",
+    description:
+      "I created a portfolio website to display my work and professional experience.",
+    tags: ["React", "Next.js", "Typescript", "Tailwind CSS","Framer Motion","React Email & Resend","Vercel hosting"],
+    imageUrl: portfolio,
   },
   {
     title: "AgriStats",
@@ -92,14 +100,15 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
+  "Nest.js",
   "Git",
   "Tailwind",
   "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
+  "MySQL",
+  "Java",
+  "C",
+  "C++",
+  "C#",
   "Python",
 ] as const;
